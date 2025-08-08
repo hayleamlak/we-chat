@@ -1,0 +1,7 @@
+/* src/styles/auth.css */
+.auth-form {
+  padding: 2rem;
+  background: white;
+  max-width: 400px;
+  margin: 2rem auto;
+}

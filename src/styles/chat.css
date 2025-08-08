@@ -1,0 +1,8 @@
+/* src/styles/chat.css */
+.chat-room {
+  padding: 1rem;
+  background: white;
+}
+.message {
+  margin: 0.5rem 0;
+}
