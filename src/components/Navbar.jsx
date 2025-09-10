@@ -2,5 +2,5 @@
 import React from "react";
 
 export default function Navbar() {
-  return <nav className="navbar">Chat App</nav>;
+  return <nav className="navbar">we chat App</nav>;
 }
