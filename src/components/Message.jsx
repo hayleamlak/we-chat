@@ -22,7 +22,7 @@ export default function Message({ message, currentUserId }) {
           wordWrap: "break-word",
         }}
       >
-        <p style={{ margin: 0 }}>{message.text}</p>
+        <p style={{ margin: 20}}>{message.text}</p>
         <small>{message.userEmail}</small>
       </div>
     </div>
