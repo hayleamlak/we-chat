@@ -13,7 +13,7 @@ const SignIn = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/chat"); // redirect to chat page after login
+      navigate("/chat"); 
     } catch (error) {
       alert("Sign in failed: " + error.message);
     }
