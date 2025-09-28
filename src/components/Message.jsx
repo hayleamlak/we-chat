@@ -26,5 +26,7 @@ export default function Message({ message, currentUserId }) {
         <small>{message.userEmail}</small>
       </div>
     </div>
+    
   );
+  
 }
