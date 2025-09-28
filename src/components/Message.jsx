@@ -27,6 +27,7 @@ export default function Message({ message, currentUserId }) {
       </div>
     </div>
     
+
   );
   
 }
