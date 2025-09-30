@@ -25,6 +25,7 @@ export default function Message({ message, currentUserId }) {
         <p style={{ margin: 20}}>{message.text}</p>
         <small>{message.userEmail}</small>
       </div>
+      
     </div>
     
 
