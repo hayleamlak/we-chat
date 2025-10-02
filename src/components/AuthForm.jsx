@@ -70,6 +70,7 @@ export default function AuthForm() {
         </span>
       </p>
       {error && <p style={{ color: "blue" }}>{error}</p>}
+      
     </div>
   );
 }
