@@ -69,8 +69,9 @@ export default function AuthForm() {
           {isRegister ? "Login here" : "Register here"}
         </span>
       </p>
-      {error && <p style={{ color: "blue" }}>{error}</p>}
-      
+      {error && <p style={{ color: "red" }}>{error}</p>}
+
+
     </div>
   );
 }
