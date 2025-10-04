@@ -73,7 +73,7 @@ export default function ChatRoom() {
           placeholder="Type your message..."
           value={newMsg}
           onChange={(e) => setNewMsg(e.target.value)}
-          style={{ width: "80%", padding: "0.5rem" }}
+          style={{ width: "90%", padding: "0.5rem" }}
           
         />
         <button type="submit" style={{ width: "18%", padding: "0.5rem" }}>
