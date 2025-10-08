@@ -36,7 +36,7 @@ const SignIn = () => {
         onChange={(e) => setPassword(e.target.value)}
         required
       />
-      <button type="submit">Sign In</button>
+      <button type="submit">Sign</button>
     </form>
   );
 };
