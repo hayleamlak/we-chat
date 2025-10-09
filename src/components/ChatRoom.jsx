@@ -77,7 +77,7 @@ export default function ChatRoom() {
           
         />
         <button type="submit" style={{ width: "80%", padding: "0.5rem" }}>
-           
+           Submited
         </button>
       </form>
     </div>
