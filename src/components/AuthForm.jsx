@@ -47,7 +47,7 @@ function authform() {
       <h2>{isRegister ? "Register" : "Login"}</h2>
       <form onSubmit={handleSubmit}>
         <input
-          type="email"
+          type="text"
           placeholder="Email"
           required
           value={email}
@@ -60,7 +60,7 @@ function authform() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">{isRegister ? "Register" : "Login"}</button>
+        <button type="checkbox">{isRegister ? "Register" : "Login"}</button>
       </form>
       <button onClick={signInWithGoogle}>Sign in with Google</button>
       <p>
