@@ -21,7 +21,7 @@ const SignUp = () => {
     <form onSubmit={handleSignUp}>
       <h2>Singn in </h2>
       
-      <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
+      <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)}  />
       <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
       <button type="submit">Sign Up</button>
     </form>
