@@ -9,7 +9,7 @@ const SignUp = () => {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    catch (error) {
+    try (error) {
       await createUserWithEmailAndPassword(auth,email, password);
       alert("Account created successfully!");
     } catch (error) {
