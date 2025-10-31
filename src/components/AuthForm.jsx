@@ -72,7 +72,7 @@ function authform() {
           {isRegister ? "Login here" : "Register here"}
         </span>
       </p>
-      {error && <p style={{ color: "balck" }}>{error}</p>}
+      {error && <p style={{ color: "white" }}>{error}</p>}
 
 
     </div>
