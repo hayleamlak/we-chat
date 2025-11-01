@@ -69,7 +69,7 @@ function authform() {
           style={{ color: "blue", cursor: "pointer" }}
           onClick={() => setIsRegister(!isRegister)}
         >
-          {isRegister ? "Register here" : "Login here"}
+          {isRegister ? "Login here" : "Register here"}
         </span>
       </p>
       {error && <p style={{ color: "pink" }}>{error}</p>}
