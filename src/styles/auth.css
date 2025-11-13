@@ -5,3 +5,9 @@
   max-width: 400px;
   margin: 2rem auto;
 }
+.auth-form h1{
+  padding: 2rem;
+  color: white;
+
+  margin: 2rem auto;
+}
